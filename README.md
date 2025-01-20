@@ -62,7 +62,7 @@ The program expects the liberty file and netlist file as command-line arguments:
      - Update the gate's arrival time as the maximum arrival time from its fan-in nodes plus the computed delay.
   2. Track the maximum arrival time at primary outputs to determine the circuit delay.
  
-![image](https://github.com/user-attachments/assets/16149535-6bd6-461e-847b-a492db5f8d8f)
+![image](https://github.com/user-attachments/assets/6271e805-dbe6-45d1-a032-404c8b913594)
 
 #### **Maximum Function Used**:
 The arrival time for a gate is calculated as:

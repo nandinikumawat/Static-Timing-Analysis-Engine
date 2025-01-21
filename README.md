@@ -26,8 +26,9 @@ The program expects the liberty file and netlist file as command-line arguments:
   3. Extract delay and slew LUT values using row-column mapping.
   4. Store parsed data in a map `unordered_map<string, gate>` for lookup.
  
-     ![image](https://github.com/user-attachments/assets/354a4deb-c357-4220-9eef-42025f055fb4)
-
+   <div align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/354a4deb-c357-4220-9eef-42025f055fb4" alt="Image description">
+</div>
 
 ---
 
@@ -62,7 +63,9 @@ The program expects the liberty file and netlist file as command-line arguments:
      - Update the gate's arrival time as the maximum arrival time from its fan-in nodes plus the computed delay.
   2. Track the maximum arrival time at primary outputs to determine the circuit delay.
  
-![image](https://github.com/user-attachments/assets/6271e805-dbe6-45d1-a032-404c8b913594)
+<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/6271e805-dbe6-45d1-a032-404c8b913594" alt="Image description">
+</div>
 
 #### **Maximum Function Used**:
 The arrival time for a gate is calculated as:
